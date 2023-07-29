@@ -27,6 +27,10 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+gem 'bcrypt', '~> 3.1.7' # Để mã hóa mật khẩu
+
+gem 'devise' # Thư viện hỗ trợ đăng ký và đăng nhập
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
